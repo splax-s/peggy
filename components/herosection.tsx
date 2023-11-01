@@ -34,7 +34,7 @@ export default function Herosection() {
                     crafted with an unwavering commitment to exceptional
                     quality.
                   </p>
-                  <a href="/shop.html" className="primary-btn">
+                  <a href="/shop" className="primary-btn">
                     Shop now <span className="arrow_right" />
                   </a>
                   <div className="hero__social">
