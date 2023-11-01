@@ -20,6 +20,8 @@ export default function CheckoutTable() {
                     <tbody>
                         {
                             cart.items.map((item) => (
+
+                                <div key={item.id}>
                                 <tr>
                                     <td className="product__cart__item">
                                         <div className="product__cart__item__pic">
@@ -42,6 +44,7 @@ export default function CheckoutTable() {
                                         <i className="fa fa-close" />
                                     </td>
                                 </tr>
+                                </div>
                             ))}
                     </tbody>
                 </table>
