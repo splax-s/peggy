@@ -10,20 +10,20 @@ const Footer = () => {
             <div>
               <div className="flex items-center mb-3">
                 <MapPin size={20} color="#c88d15" className="mr-4" />
-                <h4 className="font-thin text-[18px]">Lagos, Nigeria</h4>
+                <h4 className="font-thin text-[18px]">Chicago, USA</h4>
               </div>
               <div className="flex items-center mb-3">
                 <Mail size={20} color="#c88d15" className="mr-4" />
-                <Link href="mailto:peggyrusselcollections@gmail.com">
+                <Link href="mailto:theresafrimpong80@gmail.com">
                   <p className="font-thin text-[18px]">
-                    peggyrusselcollections@gmail.com
+                    theresafrimpong80@gmail.com
                   </p>
                 </Link>
               </div>
               <div className="flex items-center mb-3">
                 <Phone size={20} color="#c88d15" className="mr-4" />
                 <Link href="tel:+2348023158152">
-                  <p className="font-thin text-[18px]">+2348023158152</p>
+                  <p className="font-thin text-[18px]">+1 (646) 785-3829</p>
                 </Link>
               </div>
               <div className="flex">
