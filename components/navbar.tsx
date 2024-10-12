@@ -17,7 +17,7 @@ const Navbar = async () => {
             {/* <p className="font-bold text-xl">PEGGY</p> */}
             <NextImage
               src={"/peggy.png"}
-              alt=""
+              alt="PEGGY"
               className="object-contain"
               width={60}
               height={60}
