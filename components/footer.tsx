@@ -15,7 +15,9 @@ const Footer = () => {
               <div className="flex items-center mb-3">
                 <Mail size={20} color="#c88d15" className="mr-4" />
                 <Link href="mailto:peggyrusselcollections@gmail.com">
-                  <p className="font-thin text-[18px]">peggyrusselcollections@gmail.com</p>
+                  <p className="font-thin text-[18px]">
+                    peggyrusselcollections@gmail.com
+                  </p>
                 </Link>
               </div>
               <div className="flex items-center mb-3">
@@ -36,30 +38,39 @@ const Footer = () => {
           </div>
           <div className="flex flex-col items-center">
             <div>
-              <Link href="/" >
+              <Link href="/">
                 <p className="font-thin text-[18px] mb-3">Delivery Policy</p>
               </Link>
-              <Link href="/" >
+              <Link href="/">
                 <p className="font-thin text-[18px] mb-3">Privacy Policy</p>
               </Link>
-              <Link href="/" >
+              <Link href="/">
                 <p className="font-thin text-[18px] mb-3">Return Policy</p>
               </Link>
             </div>
           </div>
           <div className="flex flex-col items-center md:pr-10">
-            <h2 className="text-center font-thin text-[18px]">SIGN UP FOR OUR NEWSLETTER SO YOU DON'T MISS OUT ON NEW PRODUCTS AND EXCLUSIVE OFFERS</h2>
-            <input type="email" name="newsletter_email" placeholder="Enter your email here" 
-              className="border-[1px] border-[gray] rounded-md p-3 w-full my-3" />
-            <button className="py-3 px-7 bg-[#c88d15] text-white rounded-md w-full">SUBSCRIBE</button>
+            <h2 className="text-center font-thin text-[18px]">
+              SIGN UP FOR OUR NEWSLETTER SO YOU DON'T MISS OUT ON NEW PRODUCTS
+              AND EXCLUSIVE OFFERS
+            </h2>
+            <input
+              type="email"
+              name="newsletter_email"
+              placeholder="Enter your email here"
+              className="border-[1px] border-[gray] rounded-md p-3 w-full my-3"
+            />
+            <button className="py-3 px-7 bg-[#c88d15] text-white rounded-md w-full">
+              SUBSCRIBE
+            </button>
           </div>
         </div>
         <p className="text-center text-xs text-black md:mt-0 mt-4">
-          &copy; 2023 Store, Inc. All rights reserved.
+          &copy; 2024 PeggyRussell, Inc. All rights reserved.
         </p>
       </div>
     </footer>
-  )
+  );
 };
 
 export default Footer;
