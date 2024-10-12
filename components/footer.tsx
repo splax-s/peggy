@@ -10,7 +10,7 @@ const Footer = () => {
             <div>
               <div className="flex items-center mb-3">
                 <MapPin size={20} color="#c88d15" className="mr-4" />
-                <h4 className="font-thin text-[18px]">Lagos, Nigeria</h4>
+                <h4 className="font-thin text-[18px]">Toronto, Canada</h4>
               </div>
               <div className="flex items-center mb-3">
                 <Mail size={20} color="#c88d15" className="mr-4" />
@@ -22,8 +22,8 @@ const Footer = () => {
               </div>
               <div className="flex items-center mb-3">
                 <Phone size={20} color="#c88d15" className="mr-4" />
-                <Link href="tel:+2348023158152">
-                  <p className="font-thin text-[18px]">+2348023158152</p>
+                <Link href="tel:+14379338152">
+                  <p className="font-thin text-[18px]">+1 (437) 933-8152</p>
                 </Link>
               </div>
               <div className="flex">
@@ -39,13 +39,13 @@ const Footer = () => {
           <div className="flex flex-col items-center">
             <div>
               <Link href="/">
-                <p className="font-thin text-[18px] mb-3">Delivery Policy</p>
+                <p className="font-thin text-[18px] mb-3"></p>
               </Link>
               <Link href="/">
-                <p className="font-thin text-[18px] mb-3">Privacy Policy</p>
+                <p className="font-thin text-[18px] mb-3"></p>
               </Link>
               <Link href="/">
-                <p className="font-thin text-[18px] mb-3">Return Policy</p>
+                <p className="font-thin text-[18px] mb-3"></p>
               </Link>
             </div>
           </div>
